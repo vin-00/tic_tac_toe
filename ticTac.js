@@ -1,16 +1,10 @@
-// restart pe ask name again
+
 
 let h3 = document.querySelector("h3"); // warnings
 let divs = document.querySelectorAll(".row div"); // boxes
 let p = document.querySelector("p"); // result
 
 let users = document.querySelectorAll("input"); // names
-
-
-// setInterval(function(){
-//     document.body.classList.toggle("bImage");
-// },2000)
-
 
 let arr = [[],[],[]];
 let code =0; // 0 means circle , 1 means cross
