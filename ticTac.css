@@ -1,0 +1,70 @@
+*{
+    border: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+body{
+    animation: backColor 5s linear 1s infinite alternate;
+}
+
+@keyframes backColor{
+    0%{
+        background-color: rgb(80, 80, 80);
+    }
+    20%{
+        background-color: rgb(70, 70, 70);
+    }
+    40%{
+        background-color: rgb(60, 60, 60);
+    }
+    60%{
+        background-color: rgb(50,50,50);
+    }
+    80%{
+        background-color: rgb(40, 40, 40);
+    }
+    100%{
+        background-color: rgb(30, 30, 30);
+    }
+    
+}
+h1{
+    margin-bottom: 2rem;
+}
+
+input{
+    border-radius: 10px;
+    height: 1.8rem;
+    background-color: rgb(231, 231, 231);
+    color: black;
+}
+.container{
+    margin: auto;
+    width: 15rem;
+    background-color: transparent;
+}
+.row div{
+    height: 5rem;
+    width: 5rem;
+    background:transparent;
+    text-align: center;
+    font-size: 3.5rem;
+}
+.row div i{
+    margin-top: 0.8rem;
+}
+
+.row{
+    display: flex;
+}
+
+p{
+    font-size: 2.5rem;
+    margin: auto;
+    width: 30%;
+    background-color: rgba(184, 184, 184, 0.521);
+    
+    border-radius: 20px;
+}
